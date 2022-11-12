@@ -1,0 +1,54 @@
+:root {
+  --main_color: #f4f4f4;
+  --secondary_color: #eddbcd;
+  --third_color: #404a42;
+  --muted_color: #192231;
+}
+
+body {
+  background-image: url('backgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#header {
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  margin-bottom:20px;
+
+  background-color:var(--main_color);
+  border: var(--muted_color) 2px solid;
+  border-radius: 6px;
+  text-align: center;
+  color:var(--third_color);
+}
+
+#boxes {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#main_textbox {
+  width:50%;
+
+  border: var(--muted_color) 2px solid;
+  border-radius: 6px;
+
+  background-color: var(--main_color);
+  color:var(--muted_color);
+  padding:20px;
+  margin:20px;
+}
+
+#headshot {
+  width:20%;
+  border:var(--muted_color) 2px solid;
+  border-radius:6px;
+  margin:20px;
+}
